@@ -205,5 +205,28 @@ main{
     color: #131313;
     margin-bottom: 24px;
 }
+#sponsorsSec .sponsorImgSec{
+    text-align: center;
+    margin-top: 50px;
+}
+#sponsorsSec .sponsorImgSec li{
+    display: inline-block;
+    padding: 0 50px;
+}
+#sponsorsSec .sponsorImgSec li img{
+    filter: grayscale(100%);
+}
+footer .copyrightFooter{
+    text-align: center;
+    margin-top: 120px;
+    padding: 0 6%;
+}
+footer .copyrightFooter p{
+    font-size: 20px;
+    color: #424242;
+    padding: 30px 300px;
+    background-color: #FFF4E7;
+}
+
 
 
