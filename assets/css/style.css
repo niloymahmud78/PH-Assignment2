@@ -194,5 +194,16 @@ main{
     font-size: 20px;
     color: #727272;
 }
+/* Footer Sec  */
+#sponsorsSec .sponsorHeader {
+    text-align: center;
+    margin-top: 100px;
+}
+#sponsorsSec .sponsorHeader h1{
+    font-size: 45px; 
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+}
 
 
