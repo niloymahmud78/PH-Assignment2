@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;800&display=swap');
 
 *{
+    
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     list-style: none;
+}
+body{
+    max-width: 1600px;
 }
 a{
     text-decoration: none;
@@ -65,6 +69,13 @@ nav .leftRow h3 a{
     font-weight: 600;
     padding: 8px 15px;
     border-radius: 5px;
+    border: 1px solid transparent;
+    transition: 0.8s;
+}
+.exploreBtn:hover{
+    border: 1px solid #FF900E;
+    color: #FF900E;
+    background-color: #FFF4E7;
 }
 .exploreBtnSec{
     margin-top: 30px;
@@ -185,6 +196,14 @@ main{
     border-radius: 5px;
     padding: 35px;
 }
+#someFactsSec .factBoxSec .factBox img{
+    width: 50px;
+    padding: 20px;
+    transition: 1s;
+}
+#someFactsSec .factBoxSec .factBox:hover img{
+    transform: rotate(360deg);
+}
 #someFactsSec .factBoxSec .factBox .factNumber{
     color: #424242;
     font-size: 45px;
@@ -215,6 +234,10 @@ main{
 }
 #sponsorsSec .sponsorImgSec li img{
     filter: grayscale(100%);
+    transition: 0.6s;
+}
+#sponsorsSec .sponsorImgSec li img:hover{
+    filter: grayscale(0%);
 }
 footer .copyrightFooter{
     text-align: center;
@@ -226,6 +249,28 @@ footer .copyrightFooter p{
     color: #424242;
     padding: 30px 300px;
     background-color: #FFF4E7;
+}
+
+/* recent project sec  */
+.recentProjectSec{
+    margin-top: 100px;
+    text-align: center;
+}
+.recentProjectSec h1{
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.recentProjectSec p{
+    font-size: 15px;
+    color: #424242;
+    margin-top: 25px;
+}
+.recentProjectSec img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
 }
 
 
