@@ -398,6 +398,42 @@ footer .copyrightFooter p{
     #someFactsSec .factBoxSec .factBox {
         padding: 20px;
     }
+    .recentProjectSec {
+        margin-top: 30px;
+    }
+    .recentProjectSec h1 {
+        font-size: 38px;
+    }
+    .recentProjectSec p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    #sponsorsSec .sponsorHeader {
+        margin-top: 35px;
+    }
+    #sponsorsSec .sponsorHeader h1 {
+        font-size: 38px;
+        margin-bottom: 16px;
+    }
+    #sponsorsSec .sponsorImgSec {
+        margin-top: 15px;
+    }
+    ul.sponsorImgSec .sponsorImgSec li {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    #sponsorsSec .sponsorImgSec li img {
+        margin: 20px 0;
+    }
+    footer .copyrightFooter {
+        margin-top: 20px;
+        padding: 0;
+    }
+    footer .copyrightFooter p {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
 }
 
 
